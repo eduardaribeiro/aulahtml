@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body >
+    <h1> formulario </h1>
+
+    <fieldset>
+<legend >dados pessoais </legend>
+
+<label for="nomeEmprego">nome</label> <br>
+<input type="text" name="enderecoEmprego" id="enderecoEmprego"> <br><br>
+
+<label for="estadoEmprego">estado: </label> <br>
+<select name="estadoEmprego" id="estadoEmprego" >
+  option <option value="" >ceara</option>
+  <option value=" " > Sao Paulo</option> <br>
+  <option value="" > rio de janeiro </option>
+
+  
+  </select> <br> <br>
+
+  <label for="cidadeEmprego">Endereço:</label><br>
+  <input type="text" name="cidadeEmprego" id="cidadeEmprego"><br>
+  </fieldset>
+
+  <br>
+
+  <fieldset>
+<legend> dados profissionais</legend>
+
+<label for="naturezaCargo" >natureza do cargo</label><br>
+
+<input type="radio" name="naturezaCargo" id="gerenciaCargo">
+<label for="gerenciaCargo">Gerencia</label>
+
+<input type="radio" name="naturezaCargo" id="FinanceiroCargo">
+<label for="financeiroCargo"> financeiro</label>
+
+<input type="radio" name="naturezaCargo" id="financeiroCargo">
+<label for="recepcaoCargo">recepção</label>
+
+<style>
+  table, th, td {
+    border:1px solid black;
+  }
+
+  td, th{
+    border:1px solid #ddddddd;
+    text-align: :left;
+    padding:8px;
+  }
+  tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+  </style>
+  </fieldset>
+
+<fieldset>
+<table style="width:100%">
+  <tr >
+    <th>company</th>
+    <th>contato</th>
+    <th> pais </th>
+  </tr>
+
+  <tr> 
+    <td> fulano 1</td>
+    <td>fulano 2 </td>
+    <td>fulano 3</td>
+  </tr>
+<tr>
+  <td> centro comercial </td>
+  <td> comercio co</td>
+  <td> comercio da</td>
+    
+</tr>
+</table>
+<p> de exemplo pra exemplar </p>
+
+
+</fieldset>
+
+
+</body>
+</html>
